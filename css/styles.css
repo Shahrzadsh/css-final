@@ -47,12 +47,24 @@ table {
 	border-spacing: 0;
 }
 /* ==========MY STYLE=========== */
+h2{
+    font-size: 54px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}h4{
+    font-weight: bold;
+}
 .container-3{
     max-width: 1200px;
     margin: 0 auto;
 }
 .container-2{
-    max-width: 1150px;
+    max-width: 1100px;
     margin: auto;
 }
 /* header */
@@ -296,7 +308,11 @@ footer p{
 input{
     box-sizing: border-box;
 }
-
+.margin{
+    padding-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 /* media queries */
 
 @media screen and (min-width:760px){
